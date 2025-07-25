@@ -1,0 +1,32 @@
+*,
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+            /* NAVBAR */
+.container-navbar {
+    background-color: rgb(0, 0, 0);
+    border-radius: 20px;
+    width: 45%;
+}
+
+.ul-navbar {
+    display: flex;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+}
+
+.li-navbar {
+    list-style-type: none;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+}
